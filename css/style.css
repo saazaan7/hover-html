@@ -3,6 +3,12 @@ ol,ul,li{
     margin: 0px;
     padding: 0px;
 }
+a:hover,a:focus{
+    text-decoration: none;
+}
+body{
+    font-family: monospace;
+}
 /*header image*/
 div.container-fluid.custom-header-image{margin: 0px; padding: 0px;}
 
@@ -153,3 +159,32 @@ div,h1,h2,h3{
 .page-title{
     padding: 20px;
 }
+article .post-title {
+    font-family: monospace;
+    padding: 0px 5px 15px 5px;
+}
+article .post-content{
+    padding: 15px 0px;
+    line-height: 1.5;
+}
+article .post-content p{
+    margin-bottom: 2em;
+}
+article .post-content a{
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding: 10px;
+    box-shadow: 0;
+    -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+article .post-content a:hover{
+    background-color: blue;
+    color: #fff;
+    box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+  -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+}   
+
