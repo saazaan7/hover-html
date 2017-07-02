@@ -145,10 +145,10 @@ span.right: {
 .swiper-slide .slider-content p{
     font-size: 2vw;
 }
+
 footer{
     position: fixed;
     bottom: 0;
-    height:300px;
     background-color: #fff;
     color: #999999;
     z-index: -1;
@@ -188,9 +188,33 @@ article .post-content a:hover{
   -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
 }   
 article{   
-    -webkit-box-shadow: 0px 16px 51px 0px rgba(148,153,145,0.62);
-    -moz-box-shadow: 0px 16px 51px 0px rgba(148,153,145,0.62);
-    box-shadow: 0px 16px 51px 0px rgba(148,153,145,0.62);
-    padding: 10px 0px;
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(148,153,145,0.62);
+    -moz-box-shadow: 0px 5px 25px 0px rgba(148,153,145,0.62);
+    box-shadow: 0px 5px 25px 0px rgba(148,153,145,0.62);
+    padding: 20px 0px;
+    margin-bottom: 3em;
 }
 /*box-shadow:  0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);*/
+
+/*=============Responsive========*/
+@media only screen and (max-width: 800px){
+footer{
+    position: relative;
+    bottom: auto;
+    z-index: auto;
+}
+#main{
+    margin-bottom: 0px;
+}
+.top-icon{
+    float: none;
+    text-align: center;
+}
+.top-header .contact-info li{
+    float: none;
+    text-align: center;
+}
+.top-contact{
+    float: none;
+}
+}
