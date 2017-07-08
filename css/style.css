@@ -159,6 +159,8 @@ div,h1,h2,h3{
 .page-title{
     padding: 20px;
 }
+
+/*=== Archive post excerpt style ===*/
 article .post-title {
     font-family: monospace;
     padding: 0px 5px 15px 5px;
@@ -217,4 +219,67 @@ footer{
 .top-contact{
     float: none;
 }
+}
+span.label {
+    background-color: #6be6dd;
+    padding: 4px 7px;
+    border-radius: 11%;
+    margin-right: 10px;
+}
+
+/*=== Single post style 1 CSS ===*/
+.full-post-style-1 .post-header {
+    text-align: center;
+}
+.full-post-style-1 .post-header h2{
+    font-weight: 700;
+    padding: 40px 0px;
+    text-shadow: 0px 0px 16px #000;
+    color: #fff;
+}
+.full-post-style-1 .post-header{
+    padding: 50px;
+}
+.full-post-style-1 .post-header a img{
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.full-post-style-1 .post-header span.auther-name{
+    color: #d9d3d3;
+}
+.full-post-style-1 .post-header span.auther-name:hover {
+    color: #b4eced;
+    border-bottom: 1px dotted #2ceef1;
+    transition: all 0.5s;
+}
+.full-post-style-1 .post-header .post-meta {
+    padding-top: 2em;
+}
+.full-post-style-1 .post-header .post-meta>span{
+    padding: 0px 10px;
+}
+.full-post-style-1 .post-header .post-meta>span .fa{
+    padding: 5px;
+}
+.full-post-style-1 .post-header .post-meta, .full-post-style-1 .post-header .post-meta a{
+    color:#7a7878;
+}
+.full-post-style-1 .post-content{
+    font-size: 19px;
+    padding-top: 40px;
+}
+ /*work to do here*/
+.full-post-style-1 .post-content p:first-child {
+    font-size: 3em;
+}
+.entry-content.full-post-style-1 {
+    border-radius: 5px;
+}
+.entry-content.full-post-style-1:hover {
+    box-shadow: rgba(1, 0, 0, 0.3) 0 8px 32px 0;
+}
+.post-content p::first-letter{
+    font-size: 2em;
 }
